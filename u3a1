@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+void quer(unsigned short q[17]){
+  int qu=0, zahl=0, z;
+    do{
+      z=zahl;
+      for(int j = 0; j<16; j++){
+        qu+= (z & 0x1);
+        z>>=1;
+      }
+      ++q[qu];
+      qu = 0;
+      ++zahl;
+    }while(zahl<=0xfffff);
+}
+int main(){
+  unsigned short q[17];
+  for(int i=0; i<17; i++)
+    q[i]=0;
+
+  quer(q);
+  for(int i=0; i<17; i++)
+    printf("\nQuersumme %d")
+}

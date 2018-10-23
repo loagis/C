@@ -1,0 +1,63 @@
+1 Welchen Wert haben x und y nach der Ausführung folgender arithmetischen Ausdrücke?
+
+x = 5 * 9 % 4
+y = - 3 * ++x + 3 * 18 % 7
+
+
+A+; x = 2 , y = -1
+	
+B; x = 5 , y = -6
+	
+C; x = 1 , y = -1
+	
+D; x = 5 , y = -11
+///////////////////////////////////////////
+
+2 Welche der nachfolgenden Definitionen ist falsch?
+	
+
+A; short int c;
+	
+B+; double int b;
+	
+C; long int a;
+	
+D; unsigned int c
+///////////////////////////////////////////
+
+3 Welche der folgenden Aussagen beschreibt den Linker (Binder)? (2 richtige Antworten)
+	
+
+A+; Der Linker wandelt die symbolischen Adressen der Funktionen und Variablen der Module in Speicheradressen um.
+	
+B+; Der Linker fügt Objektdateien und Bibliotheken zu einer ausführbaren Datei zusammen.
+	
+C; Der Linker übersetzt den Quellcode, wodurch eine Objektdatei (*.obj oder *.o) erzeugt wird.
+	
+D; Der Linker optimiert die Zugriffe aus einem C-Modul auf globale static-Variablen eines anderen C-Moduls.
+/////////////////////////////////////////
+
+4 Welche Zeile enthält einen Syntaxfehler?
+	
+
+A+; a = b++ = +c;
+	
+B; a = b+++c;
+	
+C; a = -b++%c;
+	
+Da = b += ++c;
+////////////////////////////////////////////
+
+5 Welches Ergebnis liefert die folgende Operation:
+
+4 << 2; 4 >> 2;
+	
+
+A; 32, 1
+	
+B+; 16, 1
+	
+C; 2, 8
+	
+D; 32, 0
